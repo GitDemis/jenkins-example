@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>http://localhost:8081/repository/maven-central/</url>
+            <url>http://192.168.0.20:8081/repository/maven-central/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>http://localhost:8081/repository/maven-central/</url>
+            <url>http://192.168.0.20:8081/repository/maven-central/</url>
         </repository>
     </distributionManagement>
 
