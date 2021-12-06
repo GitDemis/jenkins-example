@@ -59,8 +59,6 @@
         <repository>
             <id>myMavenRepo.read</id>
             <url>http://192.168.0.20:8081/repository/maven-central/</url>
-            <username>repomanage</username>
-            <password>Tomate3555</password>
         </repository>
     </repositories>
 
