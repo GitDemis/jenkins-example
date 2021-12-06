@@ -62,11 +62,26 @@
         </repository>
     </repositories>
 
+    
+
     <distributionManagement>
-        <repository>
-            <id>myMavenRepo.write</id>
-            <url>http://192.168.0.20:8081/repository/maven-public/</url>
-        </repository>
+    
+        <snapshotRepository>
+
+                       <id>anses-repo</id>
+
+                       <url>http://192.168.0.20:8081/repository/maven-snapshots/</url>
+
+               </snapshotRepository>
+
+               <repository>
+
+                       <id>anses-repo</id>
+
+                       <url>http://192.168.0.20:8081/repository/maven-releases/</url>
+
+               </repository>
+
     </distributionManagement>
 
 </project>
