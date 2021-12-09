@@ -1,5 +1,11 @@
 package com.techprimers.testing;
 
+import org.junit.jupiter.api.*;
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+
 public class FizzBuzz {
 
     public String play(int number) {
