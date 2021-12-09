@@ -84,6 +84,6 @@
             <id>maven-group</id>
             <url>http://192.168.0.20:8081/repository/maven-group</url>
         </repository>
-    </repositories
+    </repositories>
 
 </project>
